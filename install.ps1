@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 
 # Change this once to your public GitHub repository.
-$DownloadUrl = 'https://github.com/YOUR_USERNAME/KNLBooster/releases/latest/download/KNLBooster-win-x64.zip'
+$DownloadUrl = 'https://github.com/0ajaj0/KNLBooster/releases/latest/download/KNLBooster-win-x64.zip'
 
 $work = Join-Path $env:TEMP ('KNLBoosterInstall_' + [Guid]::NewGuid().ToString('N'))
 $zip = Join-Path $work 'KNLBooster-win-x64.zip'
